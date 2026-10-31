@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://loayh523-lab.github.io/mithaq-al-mumin-site/</loc></url>
-  <url><loc>https://loayh523-lab.github.io/mithaq-al-mumin-site/founder.html</loc></url>
+  <url>
+    <loc>https://loayh523-lab.github.io/mithaq-al-mumin-site/</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://loayh523-lab.github.io/mithaq-al-mumin-site/founder.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
