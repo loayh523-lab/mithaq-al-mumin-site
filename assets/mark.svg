@@ -1,12 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
-  <title id="title">شعار ميثاق المؤمن</title>
-  <defs>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ead7a4"/><stop offset="1" stop-color="#b58e4e"/>
-    </linearGradient>
-  </defs>
-  <rect x="5" y="5" width="118" height="118" rx="31" fill="#0b2821" stroke="url(#gold)" stroke-width="1.6"/>
-  <path d="M64 18 73 39 95 30 89 53 111 64 89 75 95 98 73 89 64 110 55 89 33 98 39 75 17 64 39 53 33 30 55 39Z" fill="none" stroke="url(#gold)" stroke-width="1.6" opacity=".9"/>
-  <circle cx="64" cy="64" r="26" fill="#0d3026" stroke="url(#gold)" stroke-width="1"/>
-  <text x="64" y="78" text-anchor="middle" font-family="Tahoma,Arial,sans-serif" font-size="43" font-weight="500" fill="#ead7a4">م</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <rect x="8" y="8" width="240" height="240" rx="48" stroke="#D7B66F" stroke-width="5"/>
+  <path d="M48 190V126C48 91 78 54 128 24C178 54 208 91 208 126V190" stroke="#D7B66F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M76 188V135C76 106 97 79 128 57C159 79 180 106 180 135V188" stroke="#D7B66F" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".9"/>
+  <path d="M76 188Q128 202 180 188" stroke="#D7B66F" stroke-width="5" stroke-linecap="round"/>
+  <path d="M128 92C111 92 101 78 104 63C106 54 113 48 122 46C110 61 119 79 136 81C142 82 147 80 151 77C147 86 138 92 128 92Z" fill="#D7B66F"/>
+  <path d="M128 112C109 130 96 151 94 178C115 188 141 188 162 178C160 151 147 130 128 112Z" fill="#D7B66F"/>
+  <path d="M128 128V169" stroke="#F1D99F" stroke-width="3" stroke-linecap="round" opacity=".7"/>
 </svg>
