@@ -4,23 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#071b17">
-  <meta name="description" content="الموقع الرسمي لتطبيق ميثاق المؤمن، مشروع أندرويد ديني شيعي باللغة العربية، يتناول القرآن الكريم والأدعية والزيارات والعبادات والفقه وفق مصادر واضحة.">
-  <meta name="keywords" content="ميثاق المؤمن, تطبيق ميثاق المؤمن, تطبيق شيعي, حسين لؤي فرحان, مؤسس ميثاق المؤمن">
+  <meta name="description" content="ميثاق المؤمن تطبيق شيعي عربي لنظام Android، يهدف إلى جمع القرآن الكريم والأدعية والزيارات والعبادات اليومية في تجربة واحدة منظّمة.">
+  <meta name="keywords" content="ميثاق المؤمن, تطبيق ميثاق المؤمن, تطبيق شيعي, تطبيق ديني شيعي, حسين لؤي فرحان, مؤسس ميثاق المؤمن">
   <meta name="author" content="حسين لؤي فرحان">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://loayh523-lab.github.io/mithaq-al-mumin-site/">
   <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <meta property="og:locale" content="ar_IQ">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="ميثاق المؤمن">
-  <meta property="og:title" content="ميثاق المؤمن | الموقع الرسمي">
-  <meta property="og:description" content="تعرف على تطبيق ميثاق المؤمن، محتواه، منهجه، ومؤسسه.">
+  <meta property="og:title" content="ميثاق المؤمن | عبادتك اليومية بترتيب أوضح">
+  <meta property="og:description" content="تطبيق شيعي عربي يجمع القرآن والأدعية والزيارات واحتياجات العبادة اليومية في مكان واحد.">
   <meta property="og:url" content="https://loayh523-lab.github.io/mithaq-al-mumin-site/">
-  <meta name="twitter:card" content="summary">
-  <title>ميثاق المؤمن | الموقع الرسمي</title>
+  <meta property="og:image" content="https://loayh523-lab.github.io/mithaq-al-mumin-site/assets/home-preview.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>ميثاق المؤمن | تطبيق شيعي عربي للعبادة اليومية</title>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -29,7 +30,7 @@
     "applicationCategory": "LifestyleApplication",
     "operatingSystem": "Android",
     "inLanguage": "ar",
-    "description": "مشروع تطبيق ديني شيعي باللغة العربية، قيد التطوير.",
+    "description": "مشروع تطبيق ديني شيعي باللغة العربية، قيد التطوير، يهدف إلى تنظيم القرآن والأدعية والزيارات والعبادات اليومية.",
     "author": {
       "@type": "Person",
       "name": "حسين لؤي فرحان",
@@ -41,152 +42,114 @@
 </head>
 <body>
   <a class="skip-link" href="#main">تجاوز إلى المحتوى</a>
-  <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="index.html" aria-label="ميثاق المؤمن - الرئيسية">
-        <img src="assets/mark.svg" alt="" class="brand-mark">
-        <span>ميثاق المؤمن<small>الموقع الرسمي</small></span>
+
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="wordmark" href="index.html" aria-label="ميثاق المؤمن، الصفحة الرئيسية">
+        <span class="wordmark__name">ميثاق المؤمن</span>
+        <span class="wordmark__tag">الموقع الرسمي</span>
       </a>
       <nav class="main-nav" aria-label="التنقل الرئيسي">
-        <a href="#about">عن التطبيق</a>
-        <a href="#sections">المحتوى</a>
-        <a href="#method">منهج المحتوى</a>
-        <a href="#availability">حالة التطبيق</a>
+        <a href="#features">الفكرة والمزايا</a>
+        <a href="#preview">الواجهة</a>
         <a href="founder.html">المؤسس</a>
       </nav>
-      <a class="header-link" href="https://github.com/loayh523-lab/Mithaq-Al-Mumin-New" target="_blank" rel="noopener noreferrer">المستودع البرمجي</a>
+      <a class="topbar__cta" href="https://github.com/loayh523-lab/Mithaq-Al-Mumin-New" target="_blank" rel="noopener noreferrer">تابع التطوير</a>
     </div>
   </header>
 
   <main id="main">
     <section class="hero">
-      <div class="hero-inner">
-        <div class="hero-copy">
-          <p class="eyebrow">تطبيق أندرويد ديني شيعي باللغة العربية</p>
-          <h1>ميثاق المؤمن</h1>
-          <p class="hero-lead">مشروع يهدف إلى جمع ما يحتاجه المؤمن في يومه من قرآنٍ وأدعيةٍ وزياراتٍ وعبادات، ضمن تطبيق واضح ومنظّم، مع عناية بالمصادر ودقّة النصوص.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#sections">تعرّف على محتوى التطبيق</a>
-            <a class="button button-secondary" href="founder.html">عن المؤسس</a>
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <div class="project-state"><span></span> مشروع Android قيد التطوير</div>
+          <p class="eyebrow">رفيقك اليومي للعبادة والمعرفة</p>
+          <h1>عبادتك اليومية<br><em>بترتيب أوضح.</em></h1>
+          <p class="hero__lead">يهدف ميثاق المؤمن إلى جمع القرآن الكريم والأدعية والزيارات واحتياجات العبادة اليومية في تطبيق شيعي عربي واحد، بواجهة واضحة ومحتوى تُراجع مصادره.</p>
+          <div class="hero__actions">
+            <a class="button button--gold" href="#features">اكتشف فكرة التطبيق</a>
+            <a class="button button--outline" href="https://github.com/loayh523-lab/Mithaq-Al-Mumin-New" target="_blank" rel="noopener noreferrer">تابع التطوير <span aria-hidden="true">↗</span></a>
           </div>
-          <div class="status-line"><span class="status-dot"></span><span>حالة المشروع:</span><strong>قيد التطوير والمراجعة</strong></div>
+          <p class="hero__note">التطبيق غير متاح للتنزيل العام حالياً.</p>
         </div>
-        <div class="hero-logo-wrap">
-          <div class="hero-logo-frame"><img src="assets/mark.svg" alt="شعار تطبيق ميثاق المؤمن"></div>
-          <p>ميثاق المؤمن</p>
-          <span>الهوية البصرية للتطبيق</span>
+
+        <figure class="preview-card" id="preview">
+          <div class="preview-card__frame">
+            <img src="assets/home-preview.webp" alt="تصوّر بصري لواجهة تطبيق ميثاق المؤمن الرئيسية" width="320" height="688">
+          </div>
+          <figcaption>
+            <span class="preview-card__dot"></span>
+            <span><strong>تصوّر للواجهة</strong><small>يعرض اتجاه التصميم، وليس إصداراً منشوراً من التطبيق.</small></span>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="hero__fade" aria-hidden="true"></div>
+    </section>
+
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-intro">
+          <p class="eyebrow">الفكرة ببساطة</p>
+          <h2>بدل ما تتشتّت بين أقسام متفرقة،<br><em>تلقى احتياجك بمكان واحد.</em></h2>
+          <p>ثلاثة محاور تختصر ما يعمل المشروع على تقديمه.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-card__number">01</span>
+            <h3>عبادتك اليومية</h3>
+            <p>القرآن الكريم، الورد اليومي، التعقيبات، وأعمال الأيام والمناسبات بترتيب يسهل الرجوع إليه.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-card__number">02</span>
+            <h3>احتياجاتك في تطبيق واحد</h3>
+            <p>الأدعية والزيارات، مواقيت الصلاة، الأذان، اتجاه القبلة، والمكتبة الدينية ضمن تجربة موحّدة.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-card__number">03</span>
+            <h3>وضوح في المحتوى</h3>
+            <p>عناية بمصادر النصوص ومراجعتها، مع فصل الأقسام الفقهية بحسب المرجع لتكون المعلومة أوضح.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="about">
-      <div class="section-kicker">عن التطبيق</div>
-      <div class="intro-grid">
-        <h2>ما هو <span>ميثاق المؤمن؟</span></h2>
-        <div class="prose">
-          <p class="lead">ميثاق المؤمن تطبيق ديني شيعي قيد التطوير لنظام Android، وفكرته أن تكون أبواب العبادة والمعرفة اليومية مرتّبة في مكان واحد، بدل تشتّت المستخدم بين مصادر وأقسام متفرقة.</p>
-          <p>يركّز المشروع على المحتوى العربي، وعلى أن يكون الوصول إلى القرآن والأدعية والزيارات وأعمال الأيام والوظائف الشرعية واضحاً وسهل الاستخدام. ولا يُقدَّم التطبيق على أنه إصدار نهائي أو مكتمل؛ فما زالت أقسامه ومحتوياته وتجربة استخدامه ضمن العمل والمراجعة.</p>
+    <section class="identity">
+      <div class="container identity__inner">
+        <div>
+          <p class="eyebrow">هوية المشروع</p>
+          <h2>تجربة شيعية عربية<br><em>من البداية إلى التفاصيل.</em></h2>
+        </div>
+        <p>ميثاق المؤمن ليس مجرد قائمة أدعية؛ الفكرة أن تكون أدوات العبادة اليومية والنصوص الدينية مرتبة ضمن تجربة واحدة، مع اهتمام باللغة العربية، ووضوح نسبة النصوص إلى مصادرها، وتمييز الأحكام بحسب المرجع.</p>
+      </div>
+    </section>
+
+    <section class="launch">
+      <div class="container launch__panel">
+        <div>
+          <p class="eyebrow">المرحلة الحالية</p>
+          <h2>نعمل على التفاصيل<br><em>قبل الإعلان عن الإطلاق.</em></h2>
+          <p>التطبيق قيد التطوير والمراجعة. عند اعتماد النسخة العامة، سيُعلن رابط التنزيل هنا بوضوح.</p>
+        </div>
+        <div class="launch__actions">
+          <span class="launch__status"><i></i> قيد التطوير</span>
+          <a class="button button--gold" href="https://github.com/loayh523-lab/Mithaq-Al-Mumin-New" target="_blank" rel="noopener noreferrer">تابع المشروع على GitHub <span aria-hidden="true">↗</span></a>
+          <a class="launch__founder" href="founder.html">تعرّف على مؤسس المشروع</a>
         </div>
       </div>
-    </section>
-
-    <section class="section sections-section" id="sections">
-      <div class="section-kicker">محتوى التطبيق</div>
-      <div class="section-heading">
-        <h2>الأقسام التي يعمل المشروع على تنظيمها</h2>
-        <p>هذه هي مجالات التطبيق الأساسية ضمن خطة التطوير. ذكر القسم هنا لا يعني أن جميع خصائصه أصبحت متاحة في نسخة عامة.</p>
-      </div>
-      <div class="content-grid">
-        <article class="content-card">
-          <span class="card-index">01</span><h3>القرآن الكريم</h3>
-          <p>المصحف الشريف برسمه العثماني، والسور الـ114، والأجزاء والأحزاب، مع البحث والعلامات المرجعية والتفسير ضمن خطة القسم.</p>
-        </article>
-        <article class="content-card">
-          <span class="card-index">02</span><h3>الأدعية والزيارات</h3>
-          <p>تنظيم الأدعية والزيارات بحسب الحاجة والمناسبة، مع مراجعة النصوص وإثبات المصادر وتجنّب التكرار قدر الإمكان.</p>
-        </article>
-        <article class="content-card">
-          <span class="card-index">03</span><h3>الصحيفة السجادية والمناجاة</h3>
-          <p>قسم للصحيفة السجادية ومناجاة الإمام زين العابدين عليه السلام الخمس عشرة، ضمن تنظيم مستقل وواضح.</p>
-        </article>
-        <article class="content-card">
-          <span class="card-index">04</span><h3>الصلاة والعبادات</h3>
-          <p>مواقيت الصلاة بحسب المحافظة والمنطقة، والأذان والتنبيهات باسم الصلاة، واتجاه القبلة، والتعقيبات، مع جدول خاص لشهر رمضان.</p>
-        </article>
-        <article class="content-card">
-          <span class="card-index">05</span><h3>أعمال الأيام والمناسبات</h3>
-          <p>الأعمال والأذكار والزيارات المرتبطة بأيام الأسبوع والشهور والمناسبات الدينية، بطريقة تسهّل الوصول إليها.</p>
-        </article>
-        <article class="content-card">
-          <span class="card-index">06</span><h3>نهج البلاغة والمكتبة</h3>
-          <p>مساحة للنصوص والمعارف الدينية، مع تنظيم الكتب والنصوص بحسب عناوينها ومصادرها، ومنع تكرار المحتوى بين الأقسام.</p>
-        </article>
-        <article class="content-card">
-          <span class="card-index">07</span><h3>الفقه والاستفتاءات</h3>
-          <p>أقسام فقهية منفصلة بوضوح لآراء وفتاوى السيد علي الخامنئي والسيد علي السيستاني، دون دمج غير واضح بين المرجعيتين.</p>
-        </article>
-        <article class="content-card">
-          <span class="card-index">08</span><h3>الأذكار والأعمال اليومية</h3>
-          <p>تنظيم الورد اليومي والتعقيبات والأذكار المختارة، ليكون الوصول إليها مباشراً ومن دون ازدحام في الواجهة.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section method-section" id="method">
-      <div class="section-kicker">منهج العمل</div>
-      <h2>المحتوى قبل كثرة الأقسام</h2>
-      <p class="method-intro">قيمة التطبيق ليست بكثرة العناوين، بل بصحة النص وسهولة الوصول إليه ووضوح مصدره.</p>
-      <div class="method-list">
-        <article><span>01</span><div><h3>ذكر المصدر</h3><p>الاهتمام بإظهار مصدر الدعاء أو الزيارة أو النص الديني، وعدم نسبة نص إلى مصدر من دون تحقق.</p></div></article>
-        <article><span>02</span><div><h3>مراجعة النصوص</h3><p>مراجعة النصوص والأسماء والتشكيل عند الحاجة، ومعالجة النقص والتكرار قبل اعتماد المحتوى.</p></div></article>
-        <article><span>03</span><div><h3>وضوح الأقسام الفقهية</h3><p>تمييز أحكام وآراء كل مرجع في قسمه الخاص، حتى لا تختلط الإجابات أو تُنسب إلى غير مصدرها.</p></div></article>
-        <article><span>04</span><div><h3>تجربة عربية منظّمة</h3><p>واجهة عربية من اليمين إلى اليسار، بتصميم هادئ وأقسام واضحة، مع إعطاء الأولوية للأساسيات وإتاحة المحتوى الضروري دون اتصال حيثما أمكن.</p></div></article>
-      </div>
-    </section>
-
-    <section class="section sources-section" aria-labelledby="sources-title">
-      <div class="section-kicker">المصادر</div>
-      <div class="sources-panel">
-        <h2 id="sources-title">المراجع التي يندرج الرجوع إليها</h2>
-        <p>يُراعى الرجوع إلى المصدر المناسب بحسب نوع النص. ومن الكتب التي تدخل ضمن مراجع المحتوى في المشروع:</p>
-        <ul><li>الكافي</li><li>بحار الأنوار</li><li>وسائل الشيعة</li><li>مفاتيح الجنان</li><li>نهج البلاغة</li></ul>
-        <p class="sources-note">تُذكر إحالة كل نص إلى مصدره عند إدراجه ومراجعته. وهذه القائمة لا تعني أن كل نص في التطبيق قد اكتملت مراجعته أو اعتماده.</p>
-      </div>
-    </section>
-
-    <section class="section availability-section" id="availability">
-      <div class="section-kicker">حالة التطبيق</div>
-      <div class="availability-panel">
-        <div><h2>هل التطبيق متاح للتنزيل؟</h2><p>التطبيق ما زال قيد التطوير والمراجعة، ولم يُعلن عن إصدار عام نهائي للتنزيل حتى الآن. ستُنشر معلومات الإطلاق وروابط التنزيل هنا عند اعتمادها رسمياً.</p></div>
-        <span class="status-label"><i></i> قيد التطوير</span>
-      </div>
-    </section>
-
-    <section class="section faq-section" id="faq">
-      <div class="section-kicker">أسئلة شائعة</div>
-      <h2>معلومات أساسية</h2>
-      <div class="faq-list">
-        <details><summary>لمن وُجّه تطبيق ميثاق المؤمن؟</summary><p>هو مشروع ديني شيعي، ومحتواه موجّه للمهتمين بالقرآن والأدعية والزيارات والعبادات والمعارف الإسلامية وفق المصادر الشيعية.</p></details>
-        <details><summary>ما لغة التطبيق؟</summary><p>اللغة العربية هي اللغة المعتمدة في واجهة التطبيق ومحتواه الأساسي.</p></details>
-        <details><summary>ما النظام المستهدف؟</summary><p>المشروع الحالي موجّه إلى أجهزة Android.</p></details>
-        <details><summary>هل جميع الأقسام جاهزة؟</summary><p>لا. الأقسام المذكورة توضّح نطاق العمل وخطة المحتوى، والتطبيق ما زال قيد التطوير والمراجعة.</p></details>
-      </div>
-    </section>
-
-    <section class="founder-strip">
-      <div class="founder-mark"><img src="assets/mark.svg" alt=""></div>
-      <div><span class="section-kicker">مؤسس المشروع</span><h2>حسين لؤي فرحان</h2><p>مؤسس ومبتكر ومطوّر مشروع ميثاق المؤمن.</p></div>
-      <a class="button button-secondary" href="founder.html">التعريف بالمؤسس</a>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-main">
-      <a class="brand" href="index.html"><img src="assets/mark.svg" alt="" class="brand-mark"><span>ميثاق المؤمن<small>الموقع الرسمي</small></span></a>
-      <p>موقع تعريفي بمشروع تطبيق ميثاق المؤمن ومحتواه وحالة تطويره.</p>
-      <a href="https://github.com/loayh523-lab/Mithaq-Al-Mumin-New" target="_blank" rel="noopener noreferrer">المستودع البرمجي على GitHub</a>
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="wordmark" href="index.html">
+        <span class="wordmark__name">ميثاق المؤمن</span>
+        <span class="wordmark__tag">الموقع الرسمي</span>
+      </a>
+      <p>مشروع تطبيق ديني شيعي باللغة العربية.</p>
+      <a href="founder.html">حسين لؤي فرحان — المؤسس</a>
+      <span class="footer__copy">© 2026 ميثاق المؤمن</span>
     </div>
-    <div class="footer-bottom"><span>© 2026 ميثاق المؤمن</span><a href="founder.html">حسين لؤي فرحان — المؤسس</a></div>
   </footer>
 </body>
 </html>
