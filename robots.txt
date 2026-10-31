@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://loayh523-lab.github.io/mithaq-al-mumin-site/sitemap.xml
